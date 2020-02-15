@@ -66,10 +66,10 @@ https://codepen.io/charlenejohnson/pen/VwLexKN
 	.human p
 
     22. What is a parent child selector? When would this be useful?
-	
+	A parent child selector allows for greater specificity. When you change a parent, all children will change, but once you change the child, anything below will keep changing until you specified them. This is very useful to make things more specific. 
  
     23. How do you select all links within a div with the class of sidebar?
-	
+        div .sidebar
 
     24. What is a pseudo selector?
 	A psuedo selector selects elements that are in a specific state. An example is :hover.
@@ -111,7 +111,7 @@ https://codepen.io/charlenejohnson/pen/VwLexKN
 	git push origin branch name (charlene-johnson)
 
     37. Walk me through Lambda's git flow.
-	We fork the project repo, we add our TLs as collaborator within the github repo settings. Clone our forked copy of the repo. Go to our terminal and add the cloned link. Go to our cloned repo and create a new branch with our firstname and last name by doing git checkout -b firstname-lastname. Open our project repo with VS code. The once we are finished, we save on vscode and then add again, commit and push. We go back to github and click the compare and pull request button or select new pull request. Choose our forked repo as the base repository, add our TLs as a review and click pull request
+	We fork the project repo, we add our TLs as collaborator within the github repo settings. Clone our forked copy of the repo. Go to our terminal and add the cloned link. Go to our cloned repo and create a new branch with our firstname and last name by doing git checkout -b firstname-lastname. Open our project repo with VS code. The once we are finished, we save on vscode and then add again, commit and push. We go back to github and click the compare and pull request button or select new pull request. Choose our forked repo as the base repository, add our TLs as a review and click pull request then head back to your project and keep working. Once you finish a feature add > commit> push origin firstname-lastname and once finished make a commit message that says mpv complete.
 
 
 Stretch Questions
