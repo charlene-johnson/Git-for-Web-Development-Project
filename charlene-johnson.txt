@@ -1,40 +1,118 @@
-    1. What is Semantic HTML? 
-    2. What is HTML used for? 
+https://codepen.io/charlenejohnson/pen/VwLexKN    
+
+    1. What is Semantic HTML?
+	Semantic HTML gives meaning to your content. It helps makes websites readable by developers.
+ 
+    2. What is HTML used for?
+	 It is  used  to display webpages graphically
+
     3. What is an attribute and where do we put it? 
+	An attribute provides additonal information about elements. We put it after an element
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+	h1 tag is a heading type tag. It is mostly used to create titles. The h1 tag is the most important title on the page, which means it is 	mostly used for the title of the page. It's best to have only one h1 tag, then use h2-h6 for other titles or sections.
+
     5. Name two tags that have required attributes
+	img, and a
+
     6. What do we put in the head of our HTML document? 
-    7. What is an id? 
-    8. What elements can I add an id to? 
+	The title of the page contains title, and links pertaining to styles
+
+    7. What is an id?
+ 	It is an attribute that you add to elements. It is used in specific situations where a class would not help
+
+    8. What elements can I add an id to?
+	It can be used on any HTML element.
+ 
     9. How many times can I use the same id on a page? 
+	You can only use the same id once on a page
+
     10. What is a class? 
+	A class is an attribute that specifies  a class name for an HTML element
+
     11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
+	It can be used on any element
+
+    12. How many times can I use the same class on a page?
+	There is no limit on the amount of times you can use class on a page 
+
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute used for? 
+	Create an attribute called target="blank" to the anchor tag
+		example: <a href="https://bulbapedia.bulbagarden.net/wiki/Wooloo_(Pok%C3%A9mon)" target="blank">Wooloo Page!
+
+    14. What is the alt attribute used for?
+	 It provides alternative information for an image if a user can't view it, such as use with a screen reader.
+
     15. How do I reference an id?
+	#id's name
+
     16. What is the difference between a section and a div
+	A section gives semantic meaning, whatever inside a section is grouped together. A div has no meaning. 
+
     17. What is CSS used for? 
+	It styles the sheet, adding more formatting options and colors.
+	
     18. How to we select an element? Example - every h2 on the page
+	To select an h2 on every page we write h2 {
+						}
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	The differences between class and id is you can only use an id selector once, but you can use class many different times. An id is also more specific.
+
     20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
+	.classname
+
+    21. How do we select a p element with a single class of “human”?
+	.human p
+
+    22. What is a parent child selector? When would this be useful?
+	
+ 
     23. How do you select all links within a div with the class of sidebar?
+	
+
     24. What is a pseudo selector?
+	A psuedo selector selects elements that are in a specific state. An example is :hover.
+	
     25. What do we use the change the spacing between lines?
+	line-height
+
     26. What do we use to change the spacing between letters?
+	letter-spacing
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform
+
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+	  border: dotted 1px black
+	
+    29. How do I select everything on the page?
+	*
+ 
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+	/*  */
+	
+    31. How do I find out what file I am in, when I am using the command line?
+	pwd
+	 
     32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm, and you have to be careful because you are not given a prompt with being sure if you want to delete it. It also does not go into the 	trash or recycle bin so there is no recovering that file.
+
     34. Why should I use version control? 
+	It helps with organization. It allows you to have different versions on what you are working on just in case you need to go back
+
     35. How often should I commit to github?
+	There is no limit, but you shoud commit whenever you make a change
+
     36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+	git push origin branch name (charlene-johnson)
+
+    37. Walk me through Lambda's git flow.
+	We fork the project repo, we add our TLs as collaborator within the github repo settings. Clone our forked copy of the repo. Go to our terminal and add the cloned link. Go to our cloned repo and create a new branch with our firstname and last name by doing git checkout -b firstname-lastname. Open our project repo with VS code. The once we are finished, we save on vscode and then add again, commit and push. We go back to github and click the compare and pull request button or select new pull request. Choose our forked repo as the base repository, add our TLs as a review and click pull request
+
 
 Stretch Questions
 
